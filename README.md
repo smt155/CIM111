@@ -2,4 +2,4 @@
 
 Sheila Taratuta
 
-smt155@miami.edu 
+smt155@miami.edu

@@ -1,0 +1,15 @@
+html, body{
+  background-color: pink;
+  font-family:'Open Sans Condensed', sans-serif;
+
+}
+
+h1{
+  font-size: 45px;
+  color: green;
+}
+
+p{
+  font-size: 25px;
+  color: green;
+}

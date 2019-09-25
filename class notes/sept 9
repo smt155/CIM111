@@ -1,0 +1,19 @@
+Semantic elements
+  - section is the same thing as div
+  next assignment: updating resume to CSS
+  - articles are not useful for resume
+  - footer, section, header
+
+CSS
+- cascading style sheet
+- how to add style
+
+
+<style>  p {color: red;} </style>
+  - if put in a heading then its going to change just that ONE heading
+  - if you put it in h2{} then its going to change all the h2s in that page (only one page)
+  - best way: separate file as html, use html link tag to send you to css page; creating .css file and linking
+  it in the html
+      HOW TO DO THIS:  in resume folder create new file for css
+  - selector{}: html tag --> if you don't select it you cant change it; put all rules for that selection
+        {color: red;}
