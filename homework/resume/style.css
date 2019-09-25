@@ -1,17 +1,17 @@
-html, body{ background-color: #F3D6EB; margin: 5}
+html, body{ background-color: #F3D6EB; margin: 5;}
 
-h1, h2{ color: #800080; font-family: 'Raleway', sans-serif; font-size: 34px}
+h1, h2{ color: #800080; font-family: 'Raleway', sans-serif; font-size: 34px;}
 
 p{font-family: 'Abel', sans-serif;
 font-size: 18px}
 
 div{font-family: 'Abel', sans-serif;}
 
-img#headshot{height:250 width:250
+img#headshot{height:250; width:250;
   display: inline-block;
 }
 
-section#work {font-size: 18px}
+section#work {font-size: 18px;}
 
 #email{color: red;}
 #twitter{color: red;}
