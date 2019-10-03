@@ -1,0 +1,54 @@
+Semantic elements
+  - section is the same thing as div
+  next assignment: updating resume to CSS
+  - articles are not useful for resume
+  - footer, section, header
+
+CSS
+- cascading style sheet
+- how to add style
+
+
+<style>  p {color: red;} </style>
+  - if put in a heading then its going to change just that ONE heading
+  - if you put it in h2{} then its going to change all the h2s in that page (only one page)
+  - best way: separate file as html, use html link tag to send you to css page; creating .css file and linking
+  it in the html
+      HOW TO DO THIS:  in resume folder create new file for css
+  - selector{}: html tag --> if you don't select it you cant change it; put all rules for that selection
+        {color: red;}
+
+ID
+- only in opening tag
+- very specific
+- ex id="this_paragraph" for picking one thing on the page
+- # in front in css
+
+class
+  ex: class="some_paragraph"
+  can be used in all of them
+  general grouping
+  space in class means two different names
+    "some_paragraph dominguez"
+      - name= some_paragraph and dominguez
+   . in front in css
+
+
+every tag in html has to have an open and a close
+
+
+
+Grids 10/2
+-  help break down into component
+- creates structure
+- grid-gap (css)
+    - decide how much space you want uniformly
+- container : bounding box
+- grid items : grid lines(colums and rows) cells and areas
+- parent - display property
+    - grid container
+- every grid needs its own container
+3 things
+1. know what ur website is going to be about
+2. sketches
+3. have html done/content done 

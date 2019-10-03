@@ -1,0 +1,54 @@
+html{
+    font-size: 21px;
+    line-height: 1.7;
+    font-family: sans-serif;
+}
+
+
+
+.grid_container {
+    display: grid;
+    grid-template-areas:
+        "Pink Green Blue"
+        "Pink Green Blue"
+        "Pink Green Blue";
+    grid-gap: 1rem;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+.box{
+    border: 1px solid #000000;
+    font-family: monospace;
+    height: 700px;
+
+}
+
+.Pink {
+    grid-area: Pink;
+    background-color: Pink;
+}
+
+.Green{
+    grid-area: Green;
+    background-color: Green;
+}
+
+.Blue{
+    grid-area: Blue;
+    background-color: Blue;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .box {
+        border: 100px solid blue;
+    }
+
+}

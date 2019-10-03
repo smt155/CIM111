@@ -1,0 +1,65 @@
+h2{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-areas:
+            "dababy drake drake2"
+            "future gambino mac"
+
+    grid-gap: 1rem;
+}
+
+.box{
+    border: 1px solid:#000000;
+    font-family: monospace;
+    height: 100px;
+}
+
+#a{
+    height: 100px;
+    width: 100px;
+    grid-area: Blue;
+}
+
+#b{
+    height: 100px;
+    width: 100px;
+}
+
+#c{
+    height: 100px;
+    width: 100px;
+}
+
+#d{
+    height:100px;
+    width: 100px;
+}
+
+#e{
+    height: 100px;
+    width: 100px;
+}
+
+#f{
+    height: 100px;
+    width: 100px;
+}
+
+#g{
+    height: 100px;
+    width: 100px;
+}
+
+#h{
+    height: 100px;
+    width: 100px;
+}
+
+#i{
+    height: 100px;
+    width: 100px;
+}
