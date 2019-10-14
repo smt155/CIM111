@@ -8,6 +8,21 @@ nav a{
     display: block;
 }
 
+body {
+    background-color: #F3D6EB;
+}
+
+h1, h2{
+    color: #800080;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+p{
+    font-family: 'Abel', sans-serif;
+    font-size: 15px
+}
+
 
 .left_section {
     grid-area: info;
@@ -50,6 +65,7 @@ section.main{
     justify-self: end;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
 }
 
 

@@ -1,9 +1,12 @@
-@media only screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     section.main {
         grid-template-areas:
         "info"
-        "images"
-        "description";
+        "images";
+    }
+
+    body {
+        background-color: blue;
     }
 
 }
