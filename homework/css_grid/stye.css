@@ -51,9 +51,10 @@ section.main{
 
 .description{
     display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        "a_ . "
-        "b_ . "
+        "a_ a_1"
+        "b_ b_1";
         "c_ ."
         "d_ ."
         "e_ ."
@@ -64,8 +65,9 @@ section.main{
     grid-gap: 5rem;
     justify-self: end;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 100px;
+
 }
 
 

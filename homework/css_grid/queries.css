@@ -6,5 +6,8 @@
         grid-template-columns: 1fr;
         grid-gap: 20px;
     }
-
+    .album{
+        height: 100px;
+        width: 100px;
+    }
 }
