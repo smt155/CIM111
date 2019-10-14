@@ -2,11 +2,9 @@
     section.main {
         grid-template-areas:
         "info"
-        "images";
-    }
-
-    body {
-        background-color: blue;
+        "albums";
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
     }
 
 }

@@ -10,6 +10,7 @@ nav a{
 
 body {
     background-color: #F3D6EB;
+    font-size: 18px;
 }
 
 h1, h2{
@@ -20,7 +21,6 @@ h1, h2{
 
 p{
     font-family: 'Abel', sans-serif;
-    font-size: 15px
 }
 
 
