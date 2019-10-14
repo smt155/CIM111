@@ -3,14 +3,55 @@ h2{
     font-family: sans-serif;
 }
 
+
+nav a{
+    display: block;
+}
+
+
+.left_section {
+    grid-area: info;
+}
+
+section.main{
+    display: grid;
+    grid-template-areas:
+        "info albums";
+    grid-template-columns: 200px 1fr;
+}
+
 .grid_container{
+    grid-area: albums;
     display: grid;
     grid-template-areas:
             "dababy drake drake2"
             "future gambino mac"
+            "rae weeknd thug";
 
     grid-gap: 1rem;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
 }
+
+.description{
+    display: grid;
+    grid-template-areas:
+        "a_ . "
+        "b_ . "
+        "c_ ."
+        "d_ ."
+        "e_ ."
+        "f_ ."
+        "g_ ."
+        "h_ ."
+        "i_ .";
+    grid-gap: 5rem;
+    justify-self: end;
+    align-items: center;
+    text-align: center;
+}
+
 
 .box{
     border: 1px solid:#000000;
@@ -18,48 +59,46 @@ h2{
     height: 100px;
 }
 
-#a{
-    height: 100px;
-    width: 100px;
-    grid-area: Blue;
+.album{
+    height: 200px;
+    width: 200px;
+}
+.dababy_box{
+    grid-area: dababy;
 }
 
-#b{
-    height: 100px;
-    width: 100px;
+.drake_box{
+    grid-area: drake;
 }
 
-#c{
-    height: 100px;
-    width: 100px;
+.drake2_box{
+    grid-area: drake2;
 }
 
-#d{
-    height:100px;
-    width: 100px;
+.future_box{
+    grid-area: future;
 }
 
-#e{
-    height: 100px;
-    width: 100px;
+.gambino_box{
+    grid-area: gambino;
 }
 
-#f{
-    height: 100px;
-    width: 100px;
+.mac_box{
+    grid-area: mac;
 }
 
-#g{
-    height: 100px;
-    width: 100px;
+.rae_box{
+    grid-area: rae;
 }
 
-#h{
-    height: 100px;
-    width: 100px;
+.weeknd_box{
+    grid-area: weeknd;
 }
 
-#i{
-    height: 100px;
-    width: 100px;
+.thug_box{
+    grid-area: thug;
+}
+
+.ending{
+    display: grid;
 }

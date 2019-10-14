@@ -1,0 +1,25 @@
+nav a{
+    display: inline-block;
+
+}
+
+.grid-1-container{
+    display: grid;
+    grid-template-areas:
+        "maltez ."
+        "grid-1-pictures paragraph";
+    grid-gap: 40px;
+    max-width: 630px;
+}
+
+.maltez{
+    grid-area: maltez
+}
+
+.grid-1-pictures{
+    grid-area: grid-1-pictures
+}
+
+.paragraph{
+    grid-area: paragraph
+}
