@@ -73,13 +73,14 @@ section.main{
     grid-gap: 5rem;
     align-items: center;
     text-align: start;
-    margin-top: 50px;
+    margin-top: 150px;
 
 }
 
 
 .box{
-    border: 1px solid:#000000;
+    border: 1px;
+    color: #000000;
     font-family: monospace;
     height: 100px;
 }

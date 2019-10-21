@@ -7,13 +7,14 @@
         grid-gap: 20px;
         align-items: center;
         text-align: center;
-        margin-left: 120px;
+        margin-left: 90px;
         margin-right: 100px;
     }
     .album{
         height: 100px;
         width: 100px;
     }
+}
 
     h1{
         font-size: 50px;
