@@ -1,0 +1,128 @@
+html {
+  background-color: #f9cda8;
+}
+
+#mia {
+  text-align: center;
+  color: #cd5c5c;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 30px;
+}
+.intro {
+  display: grid;
+  color: #5a5473;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+  width: 50vw;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#photos {
+  display: grid;
+  grid-template-areas:
+    "home1 home2 home3"
+    "home4 home5 home6"
+    "home7 home8 home9";
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50;
+}
+
+#home1 {
+  grid-area: home1;
+  display: grid;
+}
+
+.amenities {
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+}
+
+.direct {
+  display: grid;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  font-size: 25px;
+}
+
+#beach {
+  margin-top: -20px;
+}
+
+.info1 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info2 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info3 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info4 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info5 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info6 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info7 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info8 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info9 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.p_ {
+}

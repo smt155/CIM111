@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Visiting Barcelona</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1 id="bcn">Visit Barcelona</h1>
+    <p>A few things you can see in Barcelona, if you come at the right time.</p>
+    <nav>
+      <a href="#" id="disseny">Design Museum</a>
+      <a href="#" id="guell">Park Güell</a>
+      <a href="#" id="barceloneta">La Barceloneta</a>
+      <a href="#" id="citadel">Citadel Park</a>
+      <a href="#" id="montjuic">Montjuïc Castle</a>
+    </nav>
+  </header>
+  <main>
+    <h2 id="title">Barcelona Design Museum</h2>
+    <section id="a_box">
+
+    </section>
+    <section id="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+
+    <button type="button" name="button">Hide picture</button>
+    <a data-fancybox="gallery" href="images/disseny.jpg">
+      <img src="images/disseny.jpg" alt="" id="main_pic" class="image"></a>
+
+  </main>
+
+  <!-- Scripts -->
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+
+  <script type="text/javascript">
+    var bcnClicked = false;
+    var imgBig = "no";
+    $(document).ready(function() {
+
+      $("#bcn").click(function() {
+        if (bcnClicked === false) {
+          $("#bcn").css("font-size", "60px");
+          bcnClicked = true;
+        } else {
+          $("#bcn").css("font-size", "20px");
+          bcnClicked = false;
+        }
+      });
+
+      $("#main_pic").click(function() {
+        console.log(imgBig);
+        if (imgBig === "no") {
+          $("#main_pic").css("width", "800px");
+          imgBig = "yes";
+        } else {
+          $("#main_pic").css("width", "400px");
+          imgBig = "no";
+        }
+      });
+
+    });
+
+  </script>
+
+</body>
+
+</html>
