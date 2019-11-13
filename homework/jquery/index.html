@@ -8,8 +8,11 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,500|Roboto+Slab:100&display=swap" rel="stylesheet">
   <script src="jquery-3.3.1.min.js"></script>
+  <script src="jquery.lettering-0.6.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
+      $(".fancy_title").lettering();
+
       $("#mia").css("font-size", "80px");
 
       $("#mia").mouseover(function() {
@@ -121,6 +124,7 @@
     <section class="main_section">
       <header>
         <h1 id="mia"> Miami's Paradise: Golden Beach</h1>
+        <h2 class="fancy_title">By: Sheila Taratuta</h2>
         <p class="intro">
           A private town within a town. Golden Beach is home to some of the most luxurious homes in South Florida.
           During the 1920's two brothers bought the property now known as Golden Beach and found investors. On May 23rd, 1929, Golden Beach
@@ -131,7 +135,6 @@
         <nav class="direct">
           <a href="#a1">Amenities</a>
         </nav>
-
 
 
       </header>
@@ -224,6 +227,7 @@
           <li id="tennistitle">Tennis Courts</li>
           <li id="playground">Private Playground </li>
           <li id="basket">Basketball Court</li>
+          <li id="private">Private Policing </li>
         </ol>
       </section>
     </section>
