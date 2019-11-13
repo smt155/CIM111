@@ -12,8 +12,6 @@ html {
   margin-bottom: 30px;
 }
 
-.amenities {
-}
 .intro {
   display: grid;
   color: #5a5473;
@@ -134,12 +132,97 @@ html {
   max-width: 300px;
 }
 
-.char1 {
-  margin-right: 5px;
+.fancy_title .char1 {
   color: #5a5473;
+  font-weight: bold;
 }
 
-.char2 {
-  margin-right: 5px;
+.fancy_title .char2 {
+  color: #cd5c5c;
+  font-weight: bold;
+}
+
+.fancy_title .char3 {
   color: #5a5473;
+  font-weight: bold;
+}
+
+.fancy_title .char4 {
+  color: #cd5c5c;
+  font-weight: bold;
+}
+
+.fancy_title .char5 {
+  color: #5a5473;
+  font-weight: bold;
+}
+
+.fancy_title .char6 {
+  color: #cd5c5c;
+  font-weight: bold;
+}
+
+.fancy_title .char7 {
+  color: #5a5473;
+  font-weight: bold;
+}
+
+.fancy_title .char8 {
+  color: #cd5c5c;
+  font-weight: bold;
+}
+
+.fancy_title .char9 {
+  color: #5a5473;
+  font-weight: bold;
+}
+
+.fancy_title .char10 {
+  color: #cd5c5c;
+  font-weight: bold;
+}
+
+.fancy_title .char11 {
+  color: #5a5473;
+  font-weight: bold;
+}
+
+.fancy_title .char12 {
+  color: #cd5c5c;
+  font-weight: bold;
+}
+
+.fancy_title .char13 {
+  color: #5a5473;
+  font-weight: bold;
+}
+
+.fancy_title.char14 {
+  color: #cd5c5c;
+  font-weight: bold;
+}
+
+.fancy_title .char15 {
+  color: #5a5473;
+  font-weight: bold;
+}
+
+.fancy_title .char16 {
+  color: #cd5c5c;
+  font-weight: bold;
+}
+
+.fancy_title .char17 {
+  color: #5a5473;
+  font-weight: bold;
+}
+
+.fancy_title .char18 {
+  color: #cd5c5c;
+  font-weight: bold;
+}
+
+.fancy_title .char19 {
+  color: #5a5473;
+  font-weight: bold;
 }
