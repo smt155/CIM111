@@ -1,0 +1,76 @@
+body {
+  margin: 40px;
+  background: #ebf5fb;
+  font-family: "Bellefair", serif;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "header content";
+}
+
+header.wrapper {
+  grid-area: header;
+  margin: 0;
+}
+
+section.content {
+  grid-area: content;
+  margin-right: 0;
+}
+.sidebar {
+  grid-area: sidebar;
+  margin-top: 15px;
+}
+
+.content {
+  grid-area: content;
+  justify-content: end;
+}
+
+.header {
+  grid-area: header;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content";
+}
+
+.box {
+  padding: 10px;
+  font-size: 150%;
+}
+
+#intro {
+  margin-top: -10px;
+  margin-left: 5px;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e,
+.f {
+  grid-area: "a b c" "d e f";
+}
+
+#photo_spain,
+#photo_israel {
+  margin-left: -450px;
+}
+
+#photo_amsterdam,
+#photo_moscow {
+  margin-left: -300px;
+}
+
+#photo_cap,
+#photo_florence {
+  margin-left: -150px;
+}
