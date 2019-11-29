@@ -5,30 +5,109 @@
   <meta charset="utf-8">
   <title>Travel Blog</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="queries.css">
+  <link rel="stylesheet" href="jquery-3.3.1.min.js">
   <link href="https://fonts.googleapis.com/css?family=Bellefair&display=swap" rel="stylesheet">
-
-
   <script src="jquery-3.3.1.min.js"></script>
+  <script src="jquery.lettering-0.6.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+
+      $("#p1").click(function() {
+        $("#p1").toggle(1000);
+        $("#para_spain").toggle(1000);
+      });
+
+      $("#para_spain").click(function() {
+        $("p1").toggle(1000);
+        $("#para_spain").toggle(1000);
+      });
+
+
+      $("#p2").click(function() {
+        $("#p2").toggle(1000);
+        $("#para_amsterdam").toggle(1000);
+      });
+      $("#para_amsterdam").click(function() {
+        $("#p2").toggle(1000);
+        $("#para_amsterdam").toggle(1000);
+      });
+
+
+      $("#p3").click(function() {
+        $("#p3").toggle(1000);
+        $("#para_florence").toggle(1000);
+      });
+
+      $("#para_florence").click(function() {
+        $("#p3").toggle(1000);
+        $("#para_florence").toggle(1000);
+      });
+
+      $("#p4").click(function() {
+        $("#p4").toggle(1000);
+        $("#para_israel").toggle(1000);
+      });
+
+      $("#para_israel").click(function() {
+        $("#p4").toggle(1000);
+        $("#para_israel").toggle(1000);
+      });
+
+      $("#p5").click(function() {
+        $("#p5").toggle(1000);
+        $("#para_moscow").toggle(1000);
+      });
+
+      $("#para_moscow").click(function() {
+        $("#p5").toggle(1000);
+        $("#para_moscow").toggle(1000);
+      });
+
+      $("#p6").click(function() {
+        $("#p6").toggle(1000);
+        $("#para_cap").toggle(1000);
+      });
+
+      $("#para_cap").click(function() {
+        $("#p6").toggle(1000);
+        $("para_cap").toggle(1000);
+      });
+
+    });
+
+  </script>
+
+
+
 </head>
+
+
+
+
 
 <body>
   <main>
     <header class="wrapper">
       <h1 class="box header">hello </h1>
       <div class="box sidebar">
-        <p>Spain</p>
 
-        <p>Netherlands</p>
+        <a href="madrid.index.html">Spain</a>
 
-        <p>Italy</p>
+        <a href="amsterdam.index.html">Netherlands </a>
 
-        <p>Middle East</p>
+        <a href="italy.index.html">Italy</a>
 
-        <p>Russia</p>
+        <a href="ME.index.html">Middle East</a>
 
-        <p>South of France </p>
+        <a href="russia.index.html">Russia</a>
+
+        <a href="sof.index.html">South of France</a>
+
+
       </div>
+
+
+
 
 
 
@@ -41,24 +120,33 @@
     </header>
     <section class="content wrapper">
       <div class="box a" id="photo_spain">
-        <img src="images/spain.jpg" style="width:250px;height:250px" alt="spain">
+        <img id="p1" src="images/spain.jpg" style="width:250px;height:250px" alt="spain">
+        <h2 id="para_spain" class="info1">Madrid</h2>
       </div>
       <div class="box b" id="photo_amsterdam">
-        <img src="images/amsterdam.jpg" style="width:250px;height:250px" alt="amsterdam">
+        <img id="p2" src="images/amsterdam.jpg" style="width:250px;height:250px" alt="amsterdam">
+        <h2 id="para_amsterdam" class="info2">Amsterdam</h2>
       </div>
       <div class="box c" id="photo_florence">
-        <img src="images/florence.jpg" style="width:250px;height:250px" alt="florence">
+        <img id="p3" src="images/florence.jpg" style="width:250px;height:250px" alt="florence">
+        <h2 id="para_florence" class="info3">Florence </h2>
       </div>
       <div class="box d" id="photo_israel">
-        <img src="images/israel.jpg" style="width:250px;height:250px;" alt="israel">
+        <img id="p4" src="images/israel.jpg" style="width:250px;height:250px;" alt="israel">
+        <h2 id="para_israel" class="info4">Israel</h2>
       </div>
       <div class="box e" id="photo_moscow">
-        <img src="images/moscow.jpg" style="width:250px;height:250px" alt="moscow">
+        <img id="p5" src="images/moscow.jpg" style="width:250px;height:250px" alt="moscow">
+        <h2 id="para_moscow" class="info5">Moscow</h2>
       </div>
       <div class="box f" id="photo_cap">
-        <img src="images/cap.jpg" style="width:250px;height:250px;" alt="cap">
+        <img id="p6" src="images/cap.jpg" style="width:250px;height:250px;" alt="cap">
+        <h2 id="para_cap" class="info6">Saint Jean Cap Ferrat</h2>
       </div>
     </section>
+
+
+
   </main>
 
 

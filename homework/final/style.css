@@ -20,7 +20,7 @@ section.content {
 }
 .sidebar {
   grid-area: sidebar;
-  margin-top: 15px;
+  margin-top: 50px;
 }
 
 .content {
@@ -73,4 +73,52 @@ section.content {
 #photo_cap,
 #photo_florence {
   margin-left: -150px;
+}
+
+.info1 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info2 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info3 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info4 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info5 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
+}
+
+.info6 {
+  display: none;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #5a5473;
+  max-width: 300px;
 }
