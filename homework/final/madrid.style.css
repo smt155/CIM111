@@ -27,3 +27,7 @@ body {
   margin-top: 100px;
   grid-template-areas: "p1 . .  , p2. . , p3.  . ;";
 }
+
+.p2 {
+  margin-left: 25px;
+}

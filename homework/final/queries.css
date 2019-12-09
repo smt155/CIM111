@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
   body {
-    background-color: #bada55;
+    background: #ebf5fb;
   }
 
   main {
@@ -18,28 +18,17 @@
       "content";
   }
 
+  .wrapper_2 {
+    grid-template-areas:
+      "p1, p4"
+      "p3, p6";
+    margin-left: 500px;
+  }
+
   nav ul li {
     display: inline-block;
     margin-right: 10px;
   }
-  /* section.main {
-    grid-template-areas: "header" "content";
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
-    align-items: center;
-    text-align: center;
-    margin-left: 90px;
-    margin-right: 100px;
-  }
-  .p1,
-  .p2,
-  .p3,
-  .p4,
-  .p5,
-  .p6 {
-    height: 100px;
-    width: 100px;
-  } */
 }
 
 h1 {

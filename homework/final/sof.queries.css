@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+  body {
+    background: #98e1fc;
+  }
+
+  .section1 {
+    grid-template-areas:
+      "title"
+      "intro1";
+  }
+
+  .images {
+    grid-template-areas:
+      "p1"
+      "p2"
+      "p3";
+    justify-content: center;
+  }
+}
