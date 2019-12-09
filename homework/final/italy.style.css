@@ -1,0 +1,41 @@
+body {
+  background-color: #fbfcfd;
+}
+
+.intro1 {
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 500px;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #389f04;
+}
+
+.title {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 100px;
+  color: #fe0303;
+  font-family: "Italiana", serif;
+}
+
+.images {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+  grid-template-areas: "p1 . .  , p2. . , p3.  . ;";
+}
+
+.p1 {
+  margin-bottom: 10px;
+}
+
+.p2 {
+  margin-bottom: 10px;
+}
+
+.p3 {
+  margin-top: 7px;
+}

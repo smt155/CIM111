@@ -1,0 +1,40 @@
+body {
+  background-color: #1452f8;
+}
+
+.intro1 {
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 500px;
+  font-size: 18px;
+  text-align: center;
+  justify-content: center;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #fbfcfd;
+}
+
+.title {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 100px;
+  color: #fbfcfd;
+}
+
+.images {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+  grid-template-areas: "p1 . .  , p2. . , p3.  . ;";
+}
+
+.p1 {
+  margin-bottom: 10px;
+}
+
+.p2 {
+  margin-bottom: 10px;
+}
+
+.p3 {
+  margin-top: 7px;
+}

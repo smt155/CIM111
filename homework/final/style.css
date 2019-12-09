@@ -1,8 +1,10 @@
 body {
   margin: 40px;
   background: #ebf5fb;
-  font-family: "Bellefair", serif;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #06517e;
 }
+
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -20,12 +22,14 @@ section.content {
 }
 .sidebar {
   grid-area: sidebar;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .content {
   grid-area: content;
   justify-content: end;
+  color: #06517e;
+  margin-left: 50px;
 }
 
 .header {
@@ -41,23 +45,31 @@ section.content {
     "sidebar content content";
 }
 
+.wrapper_2 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 120px 120px 120px;
+  grid-template-areas: "madrid, c," "d, f,";
+}
+
 .box {
   padding: 10px;
   font-size: 150%;
 }
 
+#h1 {
+  font-size: 50px;
+}
 #intro {
   margin-top: -10px;
   margin-left: 5px;
 }
 
 .a,
-.b,
 .c,
 .d,
-.e,
 .f {
-  grid-area: "a b c" "d e f";
+  grid-area: "a c" "d f";
 }
 
 #photo_spain,
@@ -65,28 +77,20 @@ section.content {
   margin-left: -450px;
 }
 
-#photo_amsterdam,
-#photo_moscow {
-  margin-left: -300px;
+#photo_cap {
+  margin-left: -190px;
+  margin-top: -290px;
 }
 
-#photo_cap,
 #photo_florence {
-  margin-left: -150px;
+  margin-left: -580px;
+  margin-top: 300px;
 }
 
 .info1 {
   display: none;
   align-items: center;
-  font-family: "Roboto Slab", serif;
-  color: #5a5473;
-  max-width: 300px;
-}
-
-.info2 {
-  display: none;
-  align-items: center;
-  font-family: "Roboto Slab", serif;
+  font-family: "PT Sans Narrow", sans-serif;
   color: #5a5473;
   max-width: 300px;
 }
@@ -94,7 +98,7 @@ section.content {
 .info3 {
   display: none;
   align-items: center;
-  font-family: "Roboto Slab", serif;
+  font-family: "PT Sans Narrow", sans-serif;
   color: #5a5473;
   max-width: 300px;
 }
@@ -102,15 +106,7 @@ section.content {
 .info4 {
   display: none;
   align-items: center;
-  font-family: "Roboto Slab", serif;
-  color: #5a5473;
-  max-width: 300px;
-}
-
-.info5 {
-  display: none;
-  align-items: center;
-  font-family: "Roboto Slab", serif;
+  font-family: "PT Sans Narrow", sans-serif;
   color: #5a5473;
   max-width: 300px;
 }
@@ -118,7 +114,26 @@ section.content {
 .info6 {
   display: none;
   align-items: center;
-  font-family: "Roboto Slab", serif;
+  font-family: "PT Sans Narrow", sans-serif;
   color: #5a5473;
   max-width: 300px;
+}
+
+.box_ {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.wrapper_3 {
+  width: 600px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, 100px);
+  margin-top: 150px;
+  margin-left: 350px;
+}
+
+.foot {
+  margin-top: 95px;
+  font-size: 18px;
 }
